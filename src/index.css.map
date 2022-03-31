@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["assets/scss/base.scss","assets/scss/vars.scss","assets/scss/main.scss","components/Joke/Joke.scss"],"names":[],"mappings":"AAMQ;AANR;AAAA;EAEE;EACA;EACA,OCGe;;;ADCjB;EACE;EACA;;;AAIF;EACE,OCTiB;EDUjB;;;AAEF;EACE;;;AElBF;EACI;EACA;EACA;;;ACAJ;EACI;EACA","file":"index.css"}
