@@ -1,15 +1,13 @@
 import React from "react";
 
-function Joke({ setup, punchline, rating, comments, isPun }) {
-  const classes = isPun ?  ['joke pun'] : ['joke']
+function Joke({setup, punchline}) {
+  console.log(setup);
   return (
     <>
-      <section className={classes}>
+      <section>
         <div className="container">
           {setup ? <h1>Setup: {setup}</h1> : ""}
           {punchline ? <p>Punchline: {punchline}</p> : ""}
-          {rating ? <span>{rating}</span> : ""}
-          {comments ? <div>{comments}</div> : ""}
         </div>
       </section>
     </>
